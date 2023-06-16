@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: #8d00df;
+    color: #eccaff;
+    position: relative;
+}
+
+body{
+    background-image:linear-gradient(60deg,#64009e, #4b0077);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bigsquare{
+    height: 750px;
+    width: 750px;
+    background-color: rgba(91, 63, 154, 50%) ;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    border-radius: 50px;
+    filter: blur(250%);
+    box-shadow: 0 0 14px;
+}
+
+.signuptitle{
+    font-size: 75px;
+    position: absolute;
+    top: 6%;
+    left: 33%;
+}
+
+.LabelforFirstname{
+    font-size: 45px;
+    position: absolute;
+    top: 22%;
+    left: 3%;
+}
+.Firstname {
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    width: 260px;
+    height: 25px;
+    background-color: #30005e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.Firstname::placeholder{
+    color: white;
+}
+.Firstname:focus{
+    transition: 2s;
+    background-color: #48008b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.LabelforLastname{
+    font-size: 45px;
+    position: absolute;
+    top: 37%;
+    left: 3%;
+}
+.Lastname{
+    position: absolute;
+    top: 47%;
+    left: 3%;
+    width: 260px;
+    height: 25px;
+    background-color: #30005e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.Lastname::placeholder{
+    color: white;
+}
+
+.Lastname:focus{
+    transition: 2s;
+    background-color: #48008b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.LabelforEmail{
+    font-size: 45px;
+    position: absolute;
+    top: 52%;
+    left: 3%;
+}
+
+.Email{
+    position: absolute;
+    top: 62%;
+    left: 3%;
+    width: 260px;
+    height: 25px;
+    background-color: #30005e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.Email::placeholder{
+    color:White;
+}
+
+.Email:focus{
+    transition: 2s;
+    background-color: #48008b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.LabelforPassword{
+    font-size: 45px;
+    position: absolute;
+    top: 67%;
+    left: 3%;
+}
+
+.Password{
+    position: absolute;
+    top:77%;
+    left: 3%;
+    width: 260px;
+    height: 25px;
+    background-color: #30005e;
+    color: white;
+    border: none;
+    border-radius: 5px
+}
+
+.Password::placeholder{
+    color: white;
+}
+
+.Password:focus:hover{
+    transition: 2s;
+    background-color: #48008b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.Submit:hover{
+    background-color: #4b0077;
+    color: white;
+}
+
+.Submit{
+    position: absolute;
+    transition: 1s;
+    background-color: #59008d;
+    top:90%;
+    left: 15%;
+    border: 0;
+    height: 25px;
+    width: 75px;
+    color:#59008d ;
+}
+
+.Spiltter{
+    height: 540px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+}
+
+.Signinwith{
+    font-size: 32px;
+    position: absolute;
+    top: 27%;
+    left: 52%;
+}
+
+.SigninwithGoogle{
+    background-color: #660016;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 34%;
+    left: 51%;
+    border-radius: 25px;
+}
+.google-logo{
+    position: absolute;
+    top: 34.5%;
+    left: 51.5%;
+}
+
+.Google-signin-26fa{
+    color: white;
+    position: absolute;
+    top: 35.5%;
+    left: 55%;
+}
+
+.specialparagraph{
+    color: red;
+    left: 56%;
+}
+.google-link-1fa{
+    color: #660016;
+    position: absolute;
+    top: 34%;
+    left: 51%;
+    height: 50px;
+    width: 250px;
+}
+
+.SigninwithFacebook{
+    background-color: #1800a3;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 43%;
+    left: 51%;
+    border-radius: 25px;
+}
+
+.Facebook-logo{
+    color: white;
+    position: absolute;
+    top: 43.5%;
+    left: 52%;
+}
+
+.Facebook-link-1fa{
+    color: #1800a3;
+    position: absolute;
+    top: 43%;
+    left: 51%;
+    height: 50px;
+    width: 250px;
+}
+
+.Facebook-signin-27fa{
+    color: white;
+    position: absolute;
+    top: 44.5%;
+    left: 55%;
+}
+
+.Facebook-link-1fa:visited{
+    color: #1800a3;
+}
+
+.member-f1a{
+    position: absolute;
+    top: 50.5%;
+    left: 55%;
+}
+
+.member-login-f2a-f2a-f2a{
+    position: absolute;
+    top: 53.5%;
+    left: 56.5%;
+}
+
+.member-login-f2a-f2a-f2a:visited{
+    color: black;
+}
+
+.member-login-f2a-f2a-f2a:hover{
+    transition: 1.5s;
+    color: white;
+}
